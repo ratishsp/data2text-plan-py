@@ -2,6 +2,18 @@
 
 This repo contains code for [Data-to-Text Generation with Content Selection and Planning](https://arxiv.org/abs/1809.00582) (Puduppully, R., Dong, L., & Lapata, M.; AAAI 2019); this code is based on an earlier fork of [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). The Pytorch version is 0.3.1.
 
+## Requirements
+
+All dependencies can be installed via:
+
+```bash
+pip install -r requirements.txt
+```
+Note that the Pytorch version is 0.3.1 and Python version is 2.7.
+The path to Pytorch wheel in ```requirements.txt``` is configured with CUDA 8.0. You may change it to the desired CUDA version.
+
+## Dataset
+
 The boxscore-data json files can be downloaded from the [boxscore-data repo](https://github.com/harvardnlp/boxscore-data).
 
 The input dataset for data2text-plan-py can be created by running the script ```create_dataset.py``` in ```scripts``` folder.

@@ -1,0 +1,5 @@
+https://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
+six
+tqdm
+torchtext==0.2.3
+future
