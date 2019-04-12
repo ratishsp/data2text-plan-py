@@ -60,7 +60,7 @@ python scripts/create_content_plan_from_index.py $BASE/rotowire/inf_src_valid.tx
 
 The accuracy of content plan in first stage can be evaluated using the following command
 ```
-python non_rg_metrics.py $BASE/transform_gen/roto_val-beam5_gens.h5-tuples.txt $BASE/transform_gen/roto_stage1_$IDENTIFIER-beam5_gens.h5-tuples.txt 
+python non_rg_metrics.py $BASE/transform_gen/roto-gold-val-beam5_gens.h5-tuples.txt $BASE/transform_gen/roto_stage1_$IDENTIFIER-beam5_gens.h5-tuples.txt 
 ```
 
 The output summary is generated using the command
@@ -77,7 +77,7 @@ python data_utils.py -mode prep_gen_data -gen_fi $BASE/gen/roto_stage2_$IDENTIFI
 
 th extractor.lua -gpuid  $GPUID -datafile roto-ie.h5 -preddata $BASE/transform_gen/roto_stage2_$IDENTIFIER-beam5_gens.h5 -dict_pfx "roto-ie" -just_eval
 
-python non_rg_metrics.py $BASE/transform_gen/roto_val-beam5_gens.h5-tuples.txt $BASE/transform_gen/roto_stage2_$IDENTIFIER-beam5_gens.h5-tuples.txt 
+python non_rg_metrics.py $BASE/transform_gen/roto-gold-val-beam5_gens.h5-tuples.txt $BASE/transform_gen/roto_stage2_$IDENTIFIER-beam5_gens.h5-tuples.txt 
 ```
 
 ## IE models
