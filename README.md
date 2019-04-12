@@ -81,5 +81,12 @@ th extractor.lua -gpuid  $GPUID -datafile roto-ie.h5 -preddata $BASE/transform_g
 python non_rg_metrics.py $BASE/transform_gen/roto-gold-val-beam5_gens.h5-tuples.txt $BASE/transform_gen/roto_stage2_$IDENTIFIER-beam5_gens.h5-tuples.txt 
 ```
 
+## Evaluation using BLEU script
+The BLEU perl script can be obtained from  https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/multi-bleu.perl
+Command to compute BLEU score:
+```
+~/multi-bleu.perl $BASE/rotowire/inf_tgt_valid.txt < $BASE/gen/roto_stage2_$IDENTIFIER-beam5_gens.txt
+```
+
 ## IE models
 For training the IE models, follow the updated code in https://github.com/ratishsp/data2text-1 which contains bug fixes for number handling. The repo contains the downloadable links for IE models too.
