@@ -2,6 +2,9 @@
 
 This repo contains code for [Data-to-Text Generation with Content Selection and Planning](https://arxiv.org/abs/1809.00582) (Puduppully, R., Dong, L., & Lapata, M.; AAAI 2019); this code is based on an earlier fork of [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). The Pytorch version is 0.3.1.
 
+## Test set output
+The test set output for the model can be found [here](https://drive.google.com/open?id=1q0VM5I5c4mEcsoDgR0xOcxXl8Z8-FeVZ)
+
 ## Requirements
 
 All dependencies can be installed via:
