@@ -4,14 +4,25 @@ This repo contains code for [Data-to-Text Generation with Content Selection and 
 
 ## Citations
 ```
-@InProceedings{DBLP:journals/corr/abs-1809-00582,
-  author = {Ratish Puduppully and Li Dong and Mirella Lapata},
-  title = {Data-to-Text Generation with Content Selection and Planning},
-  booktitle = {Proceedings of the 33rd AAAI Conference on Artificial Intelligence},
-  url       = {http://arxiv.org/abs/1809.00582},
-  year = 2019,
-  address = {Honolulu, Hawaii}
- }
+@inproceedings{DBLP:conf/aaai/Puduppully0L19,
+  author    = {Ratish Puduppully and
+               Li Dong and
+               Mirella Lapata},
+  title     = {Data-to-Text Generation with Content Selection and Planning},
+  booktitle = {The Thirty-Third {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2019, The Thirty-First Innovative Applications of Artificial Intelligence
+               Conference, {IAAI} 2019, The Ninth {AAAI} Symposium on Educational
+               Advances in Artificial Intelligence, {EAAI} 2019, Honolulu, Hawaii,
+               USA, January 27 - February 1, 2019},
+  pages     = {6908--6915},
+  publisher = {{AAAI} Press},
+  year      = {2019},
+  url       = {https://doi.org/10.1609/aaai.v33i01.33016908},
+  doi       = {10.1609/aaai.v33i01.33016908},
+  timestamp = {Tue, 02 Feb 2021 08:00:48 +0100},
+  biburl    = {https://dblp.org/rec/conf/aaai/Puduppully0L19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## Test set output
@@ -105,3 +116,4 @@ Command to compute BLEU score:
 
 ## IE models
 For training the IE models, follow the updated code in https://github.com/ratishsp/data2text-1 which contains bug fixes for number handling. The repo contains the downloadable links for IE models too.
+
