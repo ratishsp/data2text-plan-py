@@ -2,6 +2,8 @@
 
 This repo contains code for [Data-to-Text Generation with Content Selection and Planning](https://arxiv.org/abs/1809.00582) (Puduppully, R., Dong, L., & Lapata, M.; AAAI 2019); this code is based on an earlier fork of [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). The Pytorch version is 0.3.1.
 
+**Update:** For a model with better relation generation precision (RG P%) and other metrics, please see the [macro planning repository](https://github.com/ratishsp/data2text-macro-plan-py) and the corresponding [TACL 2021 paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00381/101876/Data-to-text-Generation-with-Macro-Planning).
+
 ## Citations
 ```
 @inproceedings{DBLP:conf/aaai/Puduppully0L19,
